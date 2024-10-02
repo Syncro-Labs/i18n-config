@@ -1,9 +1,9 @@
 {
   "name": "@syncrolabs/i18n-config",
-  "version": "1.0.3",
-  "private": true,
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "version": "1.0.4",
+  "private": false,
+  "description": "i18n configuration module for Nuxt",
+  "repository": "Syncro-Labs/i18n-config",
   "license": "MIT",
   "type": "module",
   "exports": {
