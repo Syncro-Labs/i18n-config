@@ -1,7 +1,6 @@
 {
   "name": "@syncrolabs/i18n-config",
-  "version": "1.0.4",
-  "private": false,
+  "version": "1.0.5",
   "description": "i18n configuration module for Nuxt",
   "repository": "Syncro-Labs/i18n-config",
   "license": "MIT",
