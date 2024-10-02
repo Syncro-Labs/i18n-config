@@ -1,6 +1,6 @@
 {
   "name": "@syncrolabs/i18n-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "description": "My new Nuxt module",
   "repository": "your-org/my-module",
