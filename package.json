@@ -1,6 +1,6 @@
 {
   "name": "@syncrolabs/i18n-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "My new Nuxt module",
   "repository": "your-org/my-module",
@@ -54,8 +54,5 @@
     "typescript": "latest",
     "vitest": "^1.6.0",
     "vue-tsc": "^2.0.16"
-  },
-  "volta": {
-    "extends": "../../../package.json"
   }
 }
