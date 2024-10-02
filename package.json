@@ -1,6 +1,6 @@
 {
   "name": "@syncrolabs/i18n-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "i18n configuration module for Nuxt",
   "repository": "Syncro-Labs/i18n-config",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "dev:build": "nuxi build playground",
     "build": "yarn prepack",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
-    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish --access public && git push --follow-tags",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch",
