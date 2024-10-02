@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['../src/module', "@nuxtjs/i18n"],
+  modules: ['../src/module', '@nuxtjs/i18n'],
 
   devtools: { enabled: true },
 
@@ -8,12 +8,12 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    defaultLocale: "da",
+    defaultLocale: 'da',
     // lazy: true,
 
     experimental: {
-      autoImportTranslationFunctions: true
+      autoImportTranslationFunctions: true,
     },
-    vueI18n: './i18n.config.ts' // if you are using custom path, default
-  }
+    vueI18n: './i18n.config.ts', // if you are using custom path, default
+  },
 })

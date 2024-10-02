@@ -1,31 +1,39 @@
 <template>
   <div class="app-container">
     Nuxt module playground!
-    <br />
+    <br>
     {{ n(1, 'currency') }}
-    <br />
+    <br>
     {{ d(date, 'long') }}
-    <br />
+    <br>
     {{ date }}
-    <br />
+    <br>
     <!-- {{ messages }}
     {{ locale }} -->
-    <br />
-    <br />
+    <br>
+    <br>
     <div>
-      <i18n-n tag="span" :value="1234" :format="{ key: 'currency', currency: 'EUR' }" />
-      <br />
-      <i18n-n tag="span" :value="1234" :format="{ key: 'currency', currency: 'DKK' }" />
+      <i18n-n
+        tag="span"
+        :value="1234"
+        :format="{ key: 'currency', currency: 'EUR' }"
+      />
+      <br>
+      <i18n-n
+        tag="span"
+        :value="1234"
+        :format="{ key: 'currency', currency: 'DKK' }"
+      />
     </div>
-    <br />
+    <br>
     <!-- {{ numberFormats. }} -->
   </div>
 </template>
 
 <script setup lang="ts">
-const { messages, locale, localeProperties, t, d, n } = useI18n();
+const { d, n } = useI18n()
 
-const date = ref(new Date());
+const date = ref(new Date())
 </script>
 
 <style>

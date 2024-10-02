@@ -1,8 +1,8 @@
-import { defineLocale } from "../../../src/runtime/composables/defineLocale";
+import { defineLocale } from '../../../src/runtime/composables/defineLocale'
 
 export default defineLocale({
-  locale: { code: "en" },
+  locale: { code: 'en' },
   datetimeFormats: {
 
-  }
+  },
 })

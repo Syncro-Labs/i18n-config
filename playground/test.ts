@@ -1,2 +1,2 @@
-const myVar = "Hello world";
-export default myVar;
+const myVar = 'Hello world'
+export default myVar
