@@ -71,8 +71,6 @@ export async function ComputeLocale(
     _dirname: dirname(_definitionPath),
   })
 
-  console.log({ conf })
-
   return conf
 }
 
