@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v1.0.8
+
+[compare changes](https://github.com/Syncro-Labs/i18n-config/compare/v1.0.7...v1.0.8)
+
 ## v1.0.7
 
 [compare changes](https://github.com/Syncro-Labs/i18n-config/compare/v1.0.4...v1.0.7)
